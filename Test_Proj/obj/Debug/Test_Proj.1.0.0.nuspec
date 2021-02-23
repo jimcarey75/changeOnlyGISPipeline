@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Test_Proj</id>
+    <version>1.0.0</version>
+    <authors>Test_Proj</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\jcarey\Documents\GitHub\test_proj\Test_Proj\bin\Debug\netcoreapp3.1\Test_Proj.runtimeconfig.json" target="lib\netcoreapp3.1\Test_Proj.runtimeconfig.json" />
+    <file src="C:\Users\jcarey\Documents\GitHub\test_proj\Test_Proj\bin\Debug\netcoreapp3.1\Test_Proj.dll" target="lib\netcoreapp3.1\Test_Proj.dll" />
+    <file src="C:\Users\jcarey\Documents\GitHub\test_proj\Test_Proj\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\Users\jcarey\Documents\GitHub\test_proj\Test_Proj\appsettings.Development.json" target="contentFiles\any\netcoreapp3.1\appsettings.Development.json" />
+    <file src="C:\Users\jcarey\Documents\GitHub\test_proj\Test_Proj\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\Users\jcarey\Documents\GitHub\test_proj\Test_Proj\appsettings.json" target="contentFiles\any\netcoreapp3.1\appsettings.json" />
+  </files>
+</package>
