@@ -6,7 +6,7 @@ if (Test-Path $deployPackagesFile) {
 	Remove-Item $deployPackagesFile
 }
 $change_contents = Get-Content $change_file
-#$change_contents >> changeContents.txt
+$change_contents >> changeContents.txt
 
 $change_contents | %{
 	$file = $_.Split(":")[0]
